@@ -17,3 +17,12 @@ This project simulates a **Smart Energy Meter** using Python:
    ```bash
    git clone https://github.com/Vishnuduttana/esp32-smart-home.git
    cd esp32-smart-home
+## ▶️ Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vishnuduttana/esp32-smart-home.git
+   cd esp32-smart-home
+pip install -r requirements.txt
+python src/generate_data.py
+python src/energy_meter.py
